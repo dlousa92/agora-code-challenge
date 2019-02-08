@@ -1,4 +1,4 @@
-.sidetagline, .maintagline {
+.headline .taglines .sidetagline, .headline .taglines .maintagline {
   text-transform: uppercase;
 }
 
@@ -6,15 +6,34 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
-.cover {
+.headline {
   background-image: url("../images/HeadlineImage_1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 75vh;
+  height: 55vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
-
-.sidetagline, .maintagline {
+.headline .taglines {
+  margin-top: 80px;
+  width: 100%;
+}
+.headline .taglines .sidetagline, .headline .taglines .maintagline {
   font-weight: 700;
+  color: #fdfafa;
+  padding: 10px;
+  margin-top: 10px;
+}
+.headline .taglines .sidetagline {
+  font-size: 1.4em;
+}
+.headline .taglines .maintagline {
+  font-size: 2.5em;
+  color: #A41F25;
+  background: #fdfafa;
+  opacity: 0.8;
 }
 
 /*# sourceMappingURL=main.css.map */

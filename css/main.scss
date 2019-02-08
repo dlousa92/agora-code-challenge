@@ -6,16 +6,41 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
-.cover {
+.headline {
   background-image: url('../images/HeadlineImage_1.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 
-  height: 75vh;
-}
+  height: 55vh;
 
-.sidetagline, .maintagline {
-  @extend %uppercase;
-  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  .taglines {
+    margin-top: 80px;
+    width: 100%;
+
+
+    .sidetagline, .maintagline {
+      @extend %uppercase;
+      font-weight: 700;
+      color: #fdfafa;
+      padding: 10px;
+      margin-top: 10px;
+    }
+  
+    .sidetagline {
+      font-size: 1.4em;
+    }
+  
+    .maintagline {
+      font-size: 2.5em;
+      color: #A41F25;
+      background: #fdfafa;
+      opacity: 0.8;
+    }
+  }
 }
 
