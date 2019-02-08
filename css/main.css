@@ -6,6 +6,10 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+.container-fluid {
+  padding: 0;
+}
+
 .headline {
   background-image: url("../images/HeadlineImage_1.jpg");
   background-repeat: no-repeat;
@@ -17,7 +21,7 @@ body {
   text-align: center;
 }
 .headline .taglines {
-  margin-top: 80px;
+  margin-top: 10%;
   width: 100%;
 }
 .headline .taglines .sidetagline, .headline .taglines .maintagline {
@@ -34,6 +38,23 @@ body {
   color: #A41F25;
   background: #fdfafa;
   opacity: 0.8;
+}
+
+.banner {
+  background-image: linear-gradient(to right, rgba(196, 154, 108, 0), #c39b7c, rgba(196, 154, 108, 0));
+}
+.banner .bannerimg {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.banner .bannerimg img {
+  height: 150px;
+  width: 150px;
+}
+.banner .bannerimg h2 {
+  font-weight: 700;
 }
 
 /*# sourceMappingURL=main.css.map */
