@@ -1,0 +1,16 @@
+%uppercase {
+  text-transform: uppercase;
+}
+
+.cover {
+  background-image: url('../images/HeadlineImage_1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  height: 75vh;
+}
+
+.sidetagline, .maintagline {
+  @extend %uppercase;
+}
+

@@ -1,0 +1,12 @@
+.sidetagline, .maintagline {
+  text-transform: uppercase;
+}
+
+.cover {
+  background-image: url("../images/HeadlineImage_1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 75vh;
+}
+
+/*# sourceMappingURL=main.css.map */
