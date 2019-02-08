@@ -2,11 +2,19 @@
   text-transform: uppercase;
 }
 
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
 .cover {
   background-image: url("../images/HeadlineImage_1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 75vh;
+}
+
+.sidetagline, .maintagline {
+  font-weight: 700;
 }
 
 /*# sourceMappingURL=main.css.map */

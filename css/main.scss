@@ -2,6 +2,10 @@
   text-transform: uppercase;
 }
 
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
 .cover {
   background-image: url('../images/HeadlineImage_1.jpg');
   background-repeat: no-repeat;
@@ -12,5 +16,6 @@
 
 .sidetagline, .maintagline {
   @extend %uppercase;
+  font-weight: 700;
 }
 
