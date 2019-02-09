@@ -57,4 +57,19 @@ body {
   font-weight: 700;
 }
 
+.maininfo {
+  padding: 40px;
+  font-size: 1.3em;
+}
+.maininfo ul {
+  list-style-type: none;
+}
+.maininfo .enzymelisttitle {
+  margin-top: 30px;
+}
+.maininfo .enzymelist li {
+  margin: 20px 0px;
+  font-style: italic;
+}
+
 /*# sourceMappingURL=main.css.map */

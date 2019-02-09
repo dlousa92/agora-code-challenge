@@ -73,3 +73,25 @@ body {
   }
 
 }
+
+.maininfo {
+  padding: 40px;
+  font-size: 1.3em;
+
+  ul {
+    list-style-type: none;
+  }
+
+  .enzymelisttitle {
+    margin-top: 30px;
+  }
+
+  .enzymelist {
+
+    li {
+      margin: 20px 0px;
+      font-style: italic;
+    }
+  }
+}
+
