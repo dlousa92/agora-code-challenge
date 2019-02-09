@@ -92,12 +92,28 @@ body {
   font-style: italic;
 }
 
-.brownbar {
+.brownbar .brownbar-content {
+  padding: 50px 40px;
+  color: #fdfafa;
   background: #3d1c0f;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
 }
 .brownbar img {
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 200px;
+  margin-bottom: 50px;
+}
+.brownbar p {
+  font-size: 1.3em;
+}
+
+.brownbar-addon {
+  padding: 40px;
+  font-size: 1.3em;
 }
 
 /*# sourceMappingURL=main.css.map */

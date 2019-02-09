@@ -119,10 +119,30 @@ body {
 }
 
 .brownbar {
-  background: #3d1c0f;
+
+  .brownbar-content {
+    padding: 50px 40px;
+    color: #fdfafa;
+    background: #3d1c0f;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
 
   img {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 50px;
   }
+
+  p {
+    font-size: 1.3em;
+  }
+}
+
+.brownbar-addon {
+  padding: 40px;
+  font-size: 1.3em;
 }
