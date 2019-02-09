@@ -95,3 +95,34 @@ body {
   }
 }
 
+.parallax {
+  background-image: url('../images/ParallaxOne_5.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 500px;
+  color: #fdfafa;
+
+  h2, h3 {
+    padding: 30px
+  }
+  h2 {
+    font-size: 2.5em;
+  }
+
+  h3 {
+    font-style: italic;
+  }
+}
+
+.brownbar {
+  background: #3d1c0f;
+
+  img {
+    width: 150px;
+    height: 150px;
+  }
+}

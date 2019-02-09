@@ -72,4 +72,32 @@ body {
   font-style: italic;
 }
 
+.parallax {
+  background-image: url("../images/ParallaxOne_5.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 500px;
+  color: #fdfafa;
+}
+.parallax h2, .parallax h3 {
+  padding: 30px;
+}
+.parallax h2 {
+  font-size: 2.5em;
+}
+.parallax h3 {
+  font-style: italic;
+}
+
+.brownbar {
+  background: #3d1c0f;
+}
+.brownbar img {
+  width: 150px;
+  height: 150px;
+}
+
 /*# sourceMappingURL=main.css.map */
