@@ -116,4 +116,16 @@ body {
   font-size: 1.3em;
 }
 
+.footer {
+  background: #A41F25;
+  padding: 40px;
+}
+.footer h2 {
+  color: #FFCD2F;
+  margin-bottom: 30px;
+}
+.footer p {
+  color: #fdfafa;
+}
+
 /*# sourceMappingURL=main.css.map */
