@@ -93,7 +93,6 @@ body {
 }
 
 .brownbar .brownbar-content {
-  padding: 50px 40px;
   color: #fdfafa;
   background: #3d1c0f;
   display: flex;
@@ -106,9 +105,11 @@ body {
   width: 200px;
   height: 200px;
   margin-bottom: 50px;
+  margin-top: 40px;
 }
 .brownbar p {
   font-size: 1.3em;
+  padding: 0px 0px 20px 40px;
 }
 
 .brownbar-addon {
@@ -126,6 +127,41 @@ body {
 }
 .footer p {
   color: #fdfafa;
+}
+
+@media (min-width: 768px) {
+  .brownbar-content {
+    margin-top: 40px;
+  }
+  .brownbar-content img {
+    position: absolute;
+    left: 50px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+  .brownbar-content p {
+    margin-left: 250px;
+    padding: 20px;
+  }
+}
+@media (min-width: 992px) {
+  .brownbar-content {
+    padding: 0px 0px 0px 0px;
+    height: 325px;
+    width: 325px;
+  }
+  .brownbar-content img {
+    height: 400px;
+    width: 400px;
+  }
+  .brownbar-content p {
+    margin-left: 425px;
+    padding-left: 40px;
+  }
+
+  .brownbar-addon {
+    margin-top: 25px;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

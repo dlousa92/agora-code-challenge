@@ -123,7 +123,6 @@ body {
 .brownbar {
 
   .brownbar-content {
-    padding: 50px 40px;
     color: #fdfafa;
     background: #3d1c0f;
     display: flex;
@@ -137,10 +136,12 @@ body {
     width: 200px;
     height: 200px;
     margin-bottom: 50px;
+    margin-top: 40px;
   }
 
   p {
     font-size: 1.3em;
+    padding: 0px 0px 20px 40px;
   }
 }
 
@@ -164,3 +165,55 @@ body {
 }
 
 // Responsive design for larger devices below
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  
+  .brownbar-content {
+
+    margin-top: 40px;
+
+    img {
+      position: absolute;
+      left: 50px;
+      margin-bottom: 0px;
+      margin-top: 0px;
+    }
+
+    p {
+      margin-left: 250px;
+      padding: 20px;
+    }
+  }
+ }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { 
+
+  .brownbar-content {
+
+    padding: 0px 0px 0px 0px;
+    height: 325px;
+    width: 325px;
+
+    img {
+      height: 400px;
+      width: 400px;
+    }
+
+    p {
+      margin-left: 425px;
+      padding-left: 40px;
+    }
+  }
+
+  .brownbar-addon {
+    margin-top: 25px;
+  }
+ }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {  }
