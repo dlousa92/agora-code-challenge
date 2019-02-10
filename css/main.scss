@@ -1,12 +1,4 @@
-// This is the styling for the mobile version. Designed site with mobile first priority.
-
-%uppercase {
-  text-transform: uppercase;
-}
-
-body {
-  font-family: 'Open Sans', sans-serif;
-}
+// These are resetting default bootstrap styles
 
 .container-fluid {
   padding: 0;
@@ -15,6 +7,16 @@ body {
 .row {
   margin-right: 0px;
   margin-left: 0px;
+}
+
+// This is the styling for the mobile version. Designed site with mobile first priority.
+
+%uppercase {
+  text-transform: uppercase;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
 }
 
 .headline {

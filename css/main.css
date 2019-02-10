@@ -1,11 +1,3 @@
-.headline .taglines .sidetagline, .headline .taglines .maintagline {
-  text-transform: uppercase;
-}
-
-body {
-  font-family: "Open Sans", sans-serif;
-}
-
 .container-fluid {
   padding: 0;
 }
@@ -13,6 +5,14 @@ body {
 .row {
   margin-right: 0px;
   margin-left: 0px;
+}
+
+.headline .taglines .sidetagline, .headline .taglines .maintagline {
+  text-transform: uppercase;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
 }
 
 .headline {
