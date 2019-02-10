@@ -193,6 +193,35 @@ body {
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) { 
 
+  body {
+    font-size: 1.1rem;
+  }
+
+  .headline {
+    background-size: cover;
+    height: 75vh;
+
+    .taglines {
+
+      .sidetagline {
+        font-size: 2em;
+      }
+
+      .maintagline {
+        font-size: 4em;
+      }
+    }
+  }
+
+  .banner {
+    .bannerimg {
+      img {
+        height: 300px;
+        width: 300px;
+      }
+    }
+  }
+
   .brownbar-content {
 
     padding: 0px 0px 0px 0px;
@@ -207,6 +236,7 @@ body {
     p {
       margin-left: 425px;
       padding-left: 40px;
+      
     }
   }
 

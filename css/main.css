@@ -145,6 +145,26 @@ body {
   }
 }
 @media (min-width: 992px) {
+  body {
+    font-size: 1.1rem;
+  }
+
+  .headline {
+    background-size: cover;
+    height: 75vh;
+  }
+  .headline .taglines .sidetagline {
+    font-size: 2em;
+  }
+  .headline .taglines .maintagline {
+    font-size: 4em;
+  }
+
+  .banner .bannerimg img {
+    height: 300px;
+    width: 300px;
+  }
+
   .brownbar-content {
     padding: 0px 0px 0px 0px;
     height: 325px;
