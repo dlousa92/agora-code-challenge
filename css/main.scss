@@ -169,6 +169,10 @@ body {
   p {
    color: #fdfafa;
   }
+
+  .crop {
+    display: none;
+  }
 }
 
 // Responsive design for larger devices below
@@ -257,6 +261,31 @@ body {
 
   .brownbar-addon {
     margin-top: 25px;
+  }
+
+  .footer {
+    position: relative;
+    background: #A41F25;
+
+    .footertext {
+      z-index: 1;
+      margin-right: 400px;
+    }
+
+    .crop { 
+      display: block;
+      position: absolute;
+      max-width: 375px; overflow: hidden;
+      height: 100%;
+      right: 0px;
+      top: 0px;
+      z-index: 0;
+
+      img {
+        max-width: initial;
+        margin-top: -250%;
+      }
+    }
   }
  }
 

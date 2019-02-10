@@ -133,6 +133,9 @@ body {
 .footer p {
   color: #fdfafa;
 }
+.footer .crop {
+  display: none;
+}
 
 @media (min-width: 768px) {
   .brownbar-content {
@@ -194,6 +197,29 @@ body {
 
   .brownbar-addon {
     margin-top: 25px;
+  }
+
+  .footer {
+    position: relative;
+    background: #A41F25;
+  }
+  .footer .footertext {
+    z-index: 1;
+    margin-right: 400px;
+  }
+  .footer .crop {
+    display: block;
+    position: absolute;
+    max-width: 375px;
+    overflow: hidden;
+    height: 100%;
+    right: 0px;
+    top: 0px;
+    z-index: 0;
+  }
+  .footer .crop img {
+    max-width: initial;
+    margin-top: -250%;
   }
 }
 
