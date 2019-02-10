@@ -10,6 +10,11 @@ body {
   padding: 0;
 }
 
+.row {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
 .headline {
   background-image: url("../images/HeadlineImage_1.jpg");
   background-repeat: no-repeat;
@@ -86,7 +91,7 @@ body {
   padding: 30px;
 }
 .parallax h2 {
-  font-size: 2.5em;
+  font-size: 2em;
 }
 .parallax h3 {
   font-style: italic;
@@ -109,7 +114,7 @@ body {
 }
 .brownbar p {
   font-size: 1.3em;
-  padding: 0px 0px 20px 40px;
+  padding: 0px 40px 20px 40px;
 }
 
 .brownbar-addon {
@@ -163,6 +168,14 @@ body {
   .banner .bannerimg img {
     height: 300px;
     width: 300px;
+  }
+
+  .parallax {
+    height: 425px;
+  }
+  .parallax h2 {
+    font-size: 2.6em;
+    margin-right: 350px;
   }
 
   .brownbar-content {
