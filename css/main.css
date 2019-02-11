@@ -150,6 +150,7 @@ body {
   .brownbar-content p {
     margin-left: 250px;
     padding: 20px;
+    font-size: 1.1em;
   }
 }
 @media (min-width: 992px) {
@@ -214,6 +215,7 @@ body {
   .brownbar-content p {
     margin-left: 425px;
     padding-left: 40px;
+    font-size: 1.1em;
   }
 
   .brownbar-addon {
