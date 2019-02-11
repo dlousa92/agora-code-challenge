@@ -159,7 +159,7 @@ body {
 
   .headline {
     background-size: cover;
-    height: 75vh;
+    height: 750px;
   }
   .headline .taglines .sidetagline {
     font-size: 2em;
@@ -168,9 +168,30 @@ body {
     font-size: 4em;
   }
 
+  .banner .bannerimg {
+    height: 400px;
+  }
   .banner .bannerimg img {
     height: 300px;
     width: 300px;
+  }
+
+  .maininfo {
+    height: 600px;
+  }
+
+  .align-left {
+    transform: translateX(-50%) scale(0.95);
+  }
+
+  .slide-in {
+    opacity: 0;
+    transition: all 0.5s;
+  }
+
+  .slide-in.active {
+    opacity: 1;
+    transform: translateX(0%) scale(1);
   }
 
   .parallax {
@@ -197,6 +218,7 @@ body {
 
   .brownbar-addon {
     margin-top: 25px;
+    height: 450px;
   }
 
   .footer {

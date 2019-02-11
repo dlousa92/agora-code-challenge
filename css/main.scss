@@ -210,7 +210,7 @@ body {
 
   .headline {
     background-size: cover;
-    height: 75vh;
+    height: 750px;
 
     .taglines {
 
@@ -226,6 +226,8 @@ body {
 
   .banner {
     .bannerimg {
+      height: 400px;
+
       img {
         height: 300px;
         width: 300px;
@@ -233,9 +235,28 @@ body {
     }
   }
 
+  .maininfo {
+    height: 600px;
+  }
+
+  .align-left {
+    transform: translateX(-50%) scale(0.95);
+  }
+
+  .slide-in {
+    opacity: 0;
+    transition: all .5s;
+  }
+
+  .slide-in.active {
+    opacity:1;
+    transform:translateX(0%) scale(1);
+  }
+
   .parallax {
 
     height: 425px;
+
     h2 {
       font-size: 2.6em;
       margin-right: 350px;
@@ -261,6 +282,7 @@ body {
 
   .brownbar-addon {
     margin-top: 25px;
+    height: 450px;
   }
 
   .footer {
